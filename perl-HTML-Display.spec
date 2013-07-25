@@ -1,15 +1,15 @@
 %define upstream_name    HTML-Display
-%define upstream_version 0.39
+%define upstream_version 0.40
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.40
+Release:	1
 
 Summary:	Use an OLE object to display HTML
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/HTML/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/HTML/HTML-Display-0.40.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(HTML::TokeParser::Simple)
@@ -56,4 +56,5 @@ make test
 
 * Sun Jan 25 2009 cpan2dist 0.39-1mdv
 - initial mdv release, generated with cpan2dist
+
 
