@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 0.40
-Release:	1
+Release:	2
 
 Summary:	Use an OLE object to display HTML
 License:	GPL+ or Artistic
